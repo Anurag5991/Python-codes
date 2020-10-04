@@ -2,3 +2,7 @@
 2. git status
 3.git config --global user.email "anurag.bishoyi@gmail.com"
 4.git commit -m "comment"
+5. git rm --cached <filename>
+6. git branch <branchname>
+7. git checkout <branchman>
+
