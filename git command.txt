@@ -1,3 +1,4 @@
 1. git init
 2. git status
-3.
+3.git config --global user.email "anurag.bishoyi@gmail.com"
+4.git commit -m "comment"
