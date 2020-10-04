@@ -5,4 +5,10 @@
 5. git rm --cached <filename>
 6. git branch <branchname>
 7. git checkout <branchman>
+ 38  git merge dev (by going to master)
+   39  git remote add origin https://github.com/Anurag5991/work.git
+   40  git push -u origin main
+   41  git remote -v
+   42  git push -u origin master
+   43  git checkout dev
 
