@@ -1,0 +1,8 @@
+from asyncio import streams
+import camelot
+
+tables = camelot.read_pdf(r"C:\Users\91890\Dropbox\My PC (LAPTOP-HJCIRTNK)\Downloads\Guidelines+for+Investment+document+submission-22-23.pdf", pages='5',flavor='stream')
+print(tables)
+
+tables.export('foo.csv', f='csv', compress=True)
+tables[0].to_csv('foo.csv')
